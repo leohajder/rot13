@@ -3,31 +3,33 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/cyborg/bootstrap.min.css">
     <title>Leo Hajder | ROT13 Algorithm</title>
 </head>
 
 <body>
-    <h1>ROT13 Algorithm</h1>
-    <textarea rows="10" cols="40" id="in" placeholder="Enter text to encrypt or decrypt"></textarea>
-    <div id="out"></div>
-    <div>This is made as an assignment for <a href="https://www.freecodecamp.com/" target="_blank">FreeCodeCamp</a>.</div>
-    <div>
-        View on <a href="https://github.com/leohajder/rot13" target="_blank">Github</a>.
-        Live on <a href="https://codepen.io/leohajder/full/YGydgB" target="_blank">CodePen</a>.
-    </div>
-    <div>More about <a href="https://en.wikipedia.org/wiki/ROT13" target="_blank">ROT13</a>.</div>
-    <div class="text-danger">It works only in English.</div>
-    <div id="contact">
-        <a href="https://leohajder.github.io" target="_blank"><i class="fa fa-globe" aria-hidden="true"><span class="hidden-xs"> web</span></i></a>
-        <a href="mailto:leohajder@gmail.com" target="_blank"><i class="fa fa-envelope-o" aria-hidden="true"><span class="hidden-xs"> email</span></i></a>
-        <a href="https://github.com/leohajder" target="_blank"><i class="fa fa-github" aria-hidden="true"><span class="hidden-xs"> github</span></i></a>
-        <a href="https://www.freecodecamp.com/leohajder" target="_blank"><i class="fa fa-free-code-camp" aria-hidden="true"><span class="hidden-xs"> freecodecamp</span></i></a>
-        <a href="http://www.linkedin.com/in/leohajder" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"><span class="hidden-xs"> linkedin</span></i></a>
-        <a href="https://www.facebook.com/leohajder" target="_blank"><i class="fa fa-facebook" aria-hidden="true"><span class="hidden-xs"> facebook</span></i></a>
-        <a href="https://www.youtube.com/c/LeoHajder" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"><span class="hidden-xs"> youtube</span></i></a>
-        <a href="http://www.last.fm/user/leohajder" target="_blank"><i class="fa fa-lastfm" aria-hidden="true"><span class="hidden-xs"> last.fm</span></i></a>
+    <div class="container">
+        <h1 class="page-header">ROT13 Algorithm</h1>
+        <textarea class="form-control" rows="5" cols="40" id="in" placeholder="Enter text to encrypt or decrypt"></textarea>
+        <div id="out" class="jumbotron text-primary"></div>
+        <div>This is made as an assignment for <a href="https://www.freecodecamp.com/" target="_blank">FreeCodeCamp</a>.</div>
+        <div>
+            View on <a href="https://github.com/leohajder/rot13" target="_blank">Github</a>.
+            Live on <a href="https://codepen.io/leohajder/full/YGydgB" target="_blank">CodePen</a>.
+        </div>
+        <div>More about <a href="https://en.wikipedia.org/wiki/ROT13" target="_blank">ROT13</a>.</div>
+        <div class="text-danger">It works only in English.</div>
+        <div>
+            <a href="https://leohajder.github.io" target="_blank"><span class="label label-primary"><i class="fa fa-globe fa-lg" aria-hidden="true"><span class="hidden-xs"> web</span></i></span></a>
+            <a href="mailto:leohajder@gmail.com" target="_blank"><span class="label label-primary"><i class="fa fa-envelope-o fa-lg" aria-hidden="true"><span class="hidden-xs"> email</span></i></span></a>
+            <a href="https://github.com/leohajder" target="_blank"><span class="label label-primary"><i class="fa fa-github fa-lg" aria-hidden="true"><span class="hidden-xs"> github</span></i></span></a>
+            <a href="https://www.freecodecamp.com/leohajder" target="_blank"><span class="label label-primary"><i class="fa fa-free-code-camp fa-lg" aria-hidden="true"><span class="hidden-xs"> freecodecamp</span></i></span></a>
+            <a href="http://codepen.io/leohajder/" target="_blank"><span class="label label-primary"><i class="fa fa-codepen fa-lg" aria-hidden="true"><span class="hidden-xs"> codepen</span></i></span></a>
+            <a href="http://www.linkedin.com/in/leohajder" target="_blank"><span class="label label-primary"><i class="fa fa-linkedin fa-lg" aria-hidden="true"><span class="hidden-xs"> linkedin</span></i></span></a>
+            <a href="https://www.facebook.com/leohajder" target="_blank"><span class="label label-primary"><i class="fa fa-facebook fa-lg" aria-hidden="true"><span class="hidden-xs"> facebook</span></i></span></a>
+            <a href="https://www.youtube.com/c/LeoHajder" target="_blank"><span class="label label-primary"><i class="fa fa-youtube-play fa-lg" aria-hidden="true"><span class="hidden-xs"> youtube</span></i></span></a>
+            <a href="http://www.last.fm/user/leohajder" target="_blank"><span class="label label-primary"><i class="fa fa-lastfm fa-lg" aria-hidden="true"><span class="hidden-xs"> last.fm</span></i></span></a>
+        </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
