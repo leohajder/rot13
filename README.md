@@ -7,6 +7,7 @@ A ROT13 text encryption algorithm made as an assignment for [FreeCodeCamp](https
 * [Bootstrap](http://getbootstrap.com/)
 * [Bootswatch](https://bootswatch.com/)
 * [FontAwesome](http://fontawesome.io/)
+* [jQuery](https://jquery.com/)
 
 ## How does it work?
 
