@@ -11,7 +11,7 @@ A ROT13 text encryption algorithm made as an assignment for [FreeCodeCamp](https
 
 ## How does it work?
 
-The `Encrypt()` function is triggered on `keyup` and it passes the contents of the textarea to the `Rot13()` function. The encrypted result is displayed in real time. More about the algorithm [here](https://en.wikipedia.org/wiki/ROT13).
+The encryption is triggered on `keyup` and it passes the contents of the textarea to the `rot13()` function. The encrypted result is displayed in real time. More about the algorithm [here](https://en.wikipedia.org/wiki/ROT13).
   
 **NOTE:** It works only in English.
 
